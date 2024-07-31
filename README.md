@@ -34,7 +34,7 @@ LLamaAssistant is an AI-powered personal assistant that uses the Groq API and La
    ```
    pip install -r requirements.txt
    ```
-4. Create a `.env` file in the root directory and add your Groq API key:
+4. Create a `.env` file from '.env copy' in the root directory and add your Groq API key:
    ```
    GROQ_API_KEY=your_groq_api_key_here
    ```
