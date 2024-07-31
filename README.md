@@ -100,3 +100,22 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Test Case with Motivational Quote Skill
+
+(base) ➜  Llama_Agent git:(main) ✗ python interface.py --cli
+2024-07-31 17:08:08,028 - INFO - Loaded skills: MotivationalQuote
+Welcome to the AI Assistant. Type 'exit' to end the conversation.
+You: What skills do you have?
+2024-07-31 17:08:17,283 - INFO - Received user input: What skills do you have?
+2024-07-31 17:08:17,284 - INFO - Attempting to get response from Groq API
+
+> Entering new AgentExecutor chain...
+2024-07-31 17:08:17,804 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+I have a variety of skills that I can use to assist you with managing tasks. Some of my skills include scheduling, organizing, note-taking, and more. Is there a specific task you need help with?
+
+> Finished chain.
+2024-07-31 17:08:17,816 - INFO - Successfully received response from Groq API
+2024-07-31 17:08:17,816 - INFO - Generated response: I have a variety of skills that I can use to assist you with managing tasks. Some of my skills include scheduling, organizing, note-taking, and more. Is there a specific task you need help with?
+AI: I have a variety of skills that I can use to assist you with managing tasks. Some of my skills include scheduling, organizing, note-taking, and more. Is there a specific task you need help with?
+You: cool. can you give me a motivational quote?
