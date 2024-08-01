@@ -162,3 +162,5 @@ cython_debug/
 /generated_pdfs
 /generated_stories
 /simulations
+simulation_log.json
+/simulation_reports
