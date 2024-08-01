@@ -6,3 +6,5 @@ GROQ_API_KEY=
 
 # Use a GROQ model ID for a model that is good at function calling
 LLM_MODEL=llama3-groq-70b-8192-tool-use-preview
+
+SERPAPI_API_KEY=
